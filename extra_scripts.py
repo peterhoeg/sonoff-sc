@@ -34,7 +34,7 @@ def clr(color, text):
 def check_size(source, target, env):
     time.sleep(1)
     size = target[0].get_size()
-    print clr(Color.LIGHT_BLUE, "Binary size: %s bytes" % size)
+    print(clr(Color.LIGHT_BLUE, "Binary size: %s bytes" % size))
     #if size > 512000:
     #    print clr(Color.LIGHT_RED, "File too large for OTA!")
     #    Exit(1)
